@@ -1,0 +1,29 @@
+{
+    "name": "shankhadev/laravelbsdate",
+    "description": "A laravel package which convert AD into BS.",
+    "keywords": ["date", "nepali date", "bikram sambat"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Padam shankhadev",
+            "email": "shankhadev123@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shankhadev\\Bsdate\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shankhadev\\Bsdate\\BsdateServiceProvider"
+            ]
+        }
+    }, 
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
