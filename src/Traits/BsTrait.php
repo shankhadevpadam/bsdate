@@ -40,7 +40,6 @@ trait BsTrait
      *
      * @return [string]
      */
-
     public function format($format = 'd F Y, l')
     {
         $bsdate = new Bsdate();
